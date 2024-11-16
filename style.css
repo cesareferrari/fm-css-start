@@ -99,3 +99,29 @@ nav ul {
     align-items: center;
     gap: 2rem;
 }
+
+nav li:first-child {
+    flex-basis: 100%;
+    text-align: center;
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover {
+    color: var(--magenta);
+}
+
+nav a svg {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: -0.125em;
+    color: white;
+}
+
+.sr-only {
+    display: none;
+}
